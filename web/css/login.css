@@ -1,0 +1,146 @@
+body {
+    font-family: "Trebuchet MS", Tahoma, Arial, Geneva, sans-serif,	Helvetica, sans-serif;
+    font-size: 13px;
+    background: url(../images/bg.png) 0 1px repeat-x;
+    margin: 0;
+}
+
+.wrapper {
+    xmargin: 0 auto;
+}
+.imagewrapper{
+    float: right;
+    width:400px;
+    height:262px;
+    background-image: url(../images/im.png);
+    background-repeat: no-repeat;
+}
+#logo{
+    width:569px;
+    height:101px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: 149px 20px;
+}
+
+#border-top.h_green {
+    /*background: url(../images/j_header_middle.png) repeat-x;*/
+    height: 84px;
+    xmargin: 0 auto;
+}
+
+#contentbox,#header-top {
+    width: 755px;
+    margin: 0 auto;
+    xbackground: #efefef;
+    padding: 0px;
+    position: relative;
+}
+
+#menuheader {
+    position: relative;
+}
+
+#contentbox p {
+    padding: 0 0 10px 0;
+}
+
+#menubox {
+    background: #fff;
+    padding: 3px 10px;
+    border-left: 1px solid #cccecc;
+    border-right: 1px solid #cccecc;
+    height: 15px;
+}
+
+#user_name {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    xbackground: url(../../../images/icons/user.png) no-repeat scroll 0 2px
+        transparent;
+    padding-left: 20px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #666;
+}
+
+.loginwrapper {
+    width: 755px;
+    margin: 0 auto;
+}
+
+.btn{ 
+    background:url(../images/btn.jpg) repeat-x;
+    height:28px;
+    border:none;
+    color:#fff;
+    margin-top:20px;
+}
+
+.loginbox {
+    background: url(../images/login_shadow.png) no-repeat;
+    height: 310px;
+    padding: 40px;
+}
+
+.rightsection {
+    width: 85%;
+    float: right;
+    border-bottom: 1px solid #cccc;
+}
+
+.rightboxwrapper {
+    float: left;
+    /*margin:auto;*/
+    width: 325px;
+    padding-right: 30px;
+    background: url(../images/loginleft.png) no-repeat center bottom;
+    height: 262px;
+}
+
+.rightboxwrapper .loginheader h2 {
+    color: #0588ab;
+    font-size: 16px;
+    font-family: trebuchet MS;
+    margin: 0;
+    text-align: left;
+}
+
+.loginform input {
+    width: 170px;
+}
+
+.loginform input#btnsubmit {
+    width: 80px !important;
+    border: none;
+}
+
+.loginform {
+    padding: 10px 0 0 45px;
+    line-height: 35px;
+    background: url(../images/lock.png) no-repeat right center;
+    width: 335px;
+}
+
+.loginform td {
+    color: #333333;
+    font-family: trebuchet MS;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+.copyright {
+    width: 100%;
+    text-align: right;
+    padding: 5px 0px;
+    font-size: 11px;;
+    color: #0588ab;
+    font-family: trebuchet MS;
+}
+
+.copyright p {
+    padding-right: 15px !important;
+}

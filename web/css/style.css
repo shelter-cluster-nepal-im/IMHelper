@@ -1,0 +1,302 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper{
+    width: 100%;
+    margin:auto;
+}
+
+#inner-page{
+    width:1200px;
+    margin:auto;
+}
+
+html, body{
+    margin:0;
+    padding:0;
+}
+
+h3{
+	color:#7A0E1B;
+}
+
+#header{
+    height:150px;
+}
+
+#content{
+    background:#FFF;
+    height:400px;
+}
+
+#footer{
+    background:#666;
+    height:50px;
+    bottom:0;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:12px;	
+    color:white;
+    padding:15px;
+    margin-top:20px;
+}
+
+#header-image{
+    text-align: center;
+    padding-top:30px;
+}
+
+/*
+Menu
+-------------------------------------------------------------------------
+*/
+
+#menu{
+    text-align:right;
+}
+
+#menu ul {
+    margin: 0;
+    padding-right:30px;
+    list-style-type: none;
+}
+
+#menu ul li {
+    display: inline;  
+    align: right;
+    padding-left:30px;
+}
+
+/*
+Box
+--------------------------------------------------------------------------
+*/
+.box {
+    border:2px solid #0094ff;
+    position:relative;
+}
+
+.box h2 {
+    background:#0094ff;
+    color:white;
+    padding:10px;
+    font-family:Verdana, Geneva, sans-serif;
+}
+
+.box p {
+    color:#333;padding:10px;
+}
+
+
+/*
+Items
+---------------------------------------------------------------------------
+*/
+#menu-outer {
+
+}
+
+.table {
+    display: table;  
+    margin: 0 auto;
+}
+
+ul#horizontal-list {
+    list-style: none;
+    padding: 0px;
+
+}
+ul#horizontal-list li {
+    display: inline-block;
+    padding-left:70px;
+    padding-right:70px;
+}
+
+/*
+Hover
+--------------------------------------------------------------------
+*/
+.clean {
+    margin-bottom: 10px;
+    width: 125px;
+    height:125px;
+    display:block;
+    background-image: url(../images/img1.png);
+    background-repeat:no-repeat;
+}
+
+.clean:hover {
+    background-image: url(../images/img1_over.png) ;
+    background-repeat:no-repeat;
+}
+
+
+.split {
+    margin-bottom: 10px;
+    width: 125px;
+    height:125px;
+    display:block;
+    background-image: url(../images/img2.png);
+    background-repeat:no-repeat;
+}
+
+.split:hover {
+    background-image:url(../images/img2_over.png);
+    background-repeat:no-repeat;
+}
+
+.hdx {
+    margin-bottom: 10px;
+    width: 125px;
+    height:125px;
+    display:block;
+    background-image: url(../images/img3.png);
+    background-repeat:no-repeat;
+}
+
+.hdx:hover {
+    background-image: url(../images/img3_hover.png);
+    background-repeat:no-repeat;
+}
+
+
+.settings {
+    margin-bottom: 10px;
+    width: 125px;
+    height:125px;
+    display:block;
+    background-image: url(../images/img4.png);
+    background-repeat:no-repeat;
+}
+
+.settings:hover {
+    background-image: url(../images/img4_hover.png);
+    background-repeat:no-repeat;
+}
+
+/*
+Form
+--------------------------------------------------------------
+*/
+
+#formbackground{
+
+
+}
+
+fieldset{
+    width: 600px;
+    margin-bottom:20px;
+    border-radius:10px;
+    position:relative;
+    background: #F9F9F9;
+    border: 3px solid transparent
+        -webkit-border-image: url('../images/bottom_shadow.png') 27 27 27 27 stretch stretch; 
+    -o-border-image: url('../images/bottom_shadow.png') 27 27 27 27 stretch stretch; 
+    border-image: url('../images/bottom_shadow.png') 27 27 27 27 stretch stretch;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+legend {
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:20px;
+}
+
+label.field{
+    text-align:left;
+    widows:100px;
+    float:left;
+    font-family:Verdana, Geneva, sans-serif;
+    font-weight:bold;
+}
+
+input.textbox{
+    widows:300px;
+    float:left;
+}
+
+fieldset p{
+    clear:both;
+    padding: 10px;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    zoom: 1;     /* triggers hasLayout */
+}
+
+
+
+
+
+/* 
+Form alignment
+------------------------------------------------------------
+*/
+form  { 
+    display: table;      
+}
+
+
+
+label { 
+    display: table-cell; 
+}
+
+ .btn{
+           display: block;
+		   margin-left:auto;
+        }
+		
+		
+
+/*Tabs*/
+/*------------------------------------------------------------*/
+.tabs {
+  position: relative;   
+  min-height: 200px; 
+  clear: both;
+  margin: 25px 0;
+}
+.tab {
+  float: left;
+}
+.tab label {
+  background: #eee; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  margin-left: -1px; 
+  position: relative;
+  font-family:Verdana, Geneva, sans-serif;
+  font-size:14px;
+
+}
+.tab [type=radio] {
+  display: none;   
+}
+.content {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  background: white;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  border: 1px solid #ccc; 
+  font-family:Verdana, Geneva, sans-serif;
+}
+[type=radio]:checked ~ label {
+  background: white;
+  border-bottom: 1px solid white;
+  z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content {
+  z-index: 1;
+}
