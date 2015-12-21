@@ -1,8 +1,0 @@
-Following paths must be maintained
-D:/IMHelper/config/application.properties
-D:/IMHelper/config/userinfo.ini
-D:/IMHelper/config/dbColumnHeader.ini
-D:/IMHelper/download/
-D:/IMHelper/config/Log4j.properties
-
-This web application is developed using jsp-servlet so jdk and tomcat must be installed on your machine as well as python because cleaning and consolidation scripts are written in python.
